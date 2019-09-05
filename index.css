@@ -3,7 +3,7 @@
   color: red;
 }
 
-.my-checkbox {
+input[type=checkbox] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -12,7 +12,7 @@
   height: 20px;
 }
 
-.my-radio {
+input[type=radio] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -26,14 +26,26 @@
   all: initial;
 }
 
-.my-checkbox {
+input {
   all: initial;
+}
+
+input[type=text] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  border-style: inset;
+  background-color: white;
+  border-width: 2px;
+}
+
+input[type=checkbox] {
   -webkit-appearance: checkbox;
   -moz-appearance: checkbox;
   appearance: checkbox;
 }
 
-.my-radio {
+input[type=radio] {
   all: initial;
   -webkit-appearance: radio;
   -moz-appearance: radio;
