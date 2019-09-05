@@ -1,13 +1,41 @@
-#main {
-  width: 600px;
-  height: 400px;
-  background-color: #EEEEEE;
+.my-text {
   font-size: 40px;
-  line-height: 400px;
-  text-align: center;
-  margin: 0 auto;
+  color: red;
 }
 
-#main {
+.my-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 3px solid red;
+  width: 20px;
+  height: 20px;
+}
+
+.my-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 3px solid red;
+  width: 20px;
+  height: 20px;
+}
+
+/* ---- reset ----*/
+.my-text {
   all: initial;
+}
+
+.my-checkbox {
+  all: initial;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+}
+
+.my-radio {
+  all: initial;
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
 }
