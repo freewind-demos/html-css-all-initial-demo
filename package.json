@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "demo": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "4.0.0-beta.5",
+    "postcss-cli": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "4.1.2",
+    "precss": "^3.1.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "3.8.0"
+  }
+}
