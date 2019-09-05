@@ -1,8 +1,6 @@
-Css Hello World Demo
-====================
+Html Css "all: initial" Demo
+============================
 
-Use css in html pages.
+可以把一个element上之前设置的样式都还原。
 
 Open `index.html` in your browser.
-
-![demo](./images/demo.jpg)

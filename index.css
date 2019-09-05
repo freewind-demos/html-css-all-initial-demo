@@ -1,9 +1,13 @@
 #main {
-    width: 600px;
-    height: 400px;
-    background-color: #EEEEEE;
-    font-size: 40px;
-    line-height: 400px;
-    text-align: center;
-    margin: 0 auto;
+  width: 600px;
+  height: 400px;
+  background-color: #EEEEEE;
+  font-size: 40px;
+  line-height: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#main {
+  all: initial;
 }
